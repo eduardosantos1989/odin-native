@@ -1,0 +1,46 @@
+{
+  "name": "odin-native",
+  "version": "0.1.0",
+  "description": "Semantic Odin project tools for Codex using ols, odin, and odinfmt.",
+  "author": {
+    "name": "Local Codex",
+    "email": "local@example.invalid",
+    "url": "https://odin-lang.org/"
+  },
+  "homepage": "https://odin-lang.org/",
+  "repository": "https://github.com/DanielGavin/ols",
+  "license": "MIT",
+  "keywords": [
+    "odin",
+    "ols",
+    "lsp",
+    "compiler",
+    "odinfmt"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Odin Native",
+    "shortDescription": "Use ols and odin for semantic Odin work",
+    "longDescription": "Adds token-efficient Odin code intelligence for Codex by exposing ols LSP hover, definitions, references, symbols, diagnostics, and code actions, plus odin check, build, test, vet-style checks, and odinfmt preview.",
+    "developerName": "Local Codex",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://odin-lang.org/",
+    "privacyPolicyURL": "https://odin-lang.org/",
+    "termsOfServiceURL": "https://odin-lang.org/",
+    "defaultPrompt": [
+      "Use ols to inspect this Odin code.",
+      "Run odin check with JSON diagnostics.",
+      "Preview Odin formatting without rewriting files."
+    ],
+    "brandColor": "#2F6DB3",
+    "composerIcon": "./assets/odin.png",
+    "logo": "./assets/odin.png",
+    "screenshots": []
+  }
+}

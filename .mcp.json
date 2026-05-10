@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "odin-native": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "python",
+        "%APPDATA%\\..\\..\\.codex\\plugins\\odin-native\\scripts\\odin_native_mcp.py"
+      ],
+      "env": {
+        "PYTHONUTF8": "1"
+      },
+      "startup_timeout_ms": 20000,
+      "note": "Local Odin semantic tools for Codex. Starts ols per project root and shells out to odin and odinfmt with compact summarized output."
+    }
+  }
+}
