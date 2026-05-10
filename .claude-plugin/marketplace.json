@@ -1,0 +1,14 @@
+{
+  "name": "odin-native-local",
+  "owner": {
+    "name": "Local Codex"
+  },
+  "description": "Local marketplace for the odin-native plugin (semantic Odin tools backed by ols, odin, and odinfmt).",
+  "plugins": [
+    {
+      "name": "odin-native",
+      "source": ".",
+      "description": "Semantic Odin tools backed by ols, odin, and odinfmt."
+    }
+  ]
+}

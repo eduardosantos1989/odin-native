@@ -1,0 +1,11 @@
+{
+  "name": "odin-native",
+  "version": "0.1.0",
+  "description": "Semantic Odin tools backed by ols, odin, and odinfmt: LSP hover/definitions/references/symbols/diagnostics/code actions plus check, build, test, vet-style checks, and non-mutating format preview.",
+  "author": {
+    "name": "Local Codex"
+  },
+  "homepage": "https://odin-lang.org/",
+  "repository": "https://github.com/DanielGavin/ols",
+  "license": "MIT"
+}
